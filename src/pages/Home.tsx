@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { SectionContainer } from '../components/home/SectionContainer';
 import './Home.scss';
 const HomePage = () => {
@@ -13,6 +12,15 @@ const HomePage = () => {
             <SectionContainer info={{ title: 'Foo Bar5', description: lorem, color: 'ladylike', bColor: 'yellow-wax-paper', imgURL: './img/iStock-665112060- green  bowl-01.jpg' }} />
             <SectionContainer info={{ title: 'Foo Bar6', description: lorem, color: 'yellow-wax-paper', bColor: 'blowing-kisses', imgURL: './img/iStock-638367486.jpg' }} />
             <SectionContainer info={{ title: 'Foo Bar7', description: lorem, color: 'placebo-magenta', bColor: 'pale-seafoam', imgURL: './img/iStock-1326092934 1.jpg' }} />
+            <div className='row' style={{ backgroundImage: "url('./img/iStock-1002878308 1.jpg')" }}>
+                <img src='./img/iStock-1002878308.jpg' />
+                <div className='info' >
+                    <h2>Foo Bar10</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis.
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis. </p>
+                </div>
+            </div>
         </div>
     );
 };

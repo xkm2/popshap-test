@@ -15,10 +15,11 @@ interface Props {
 
 export const SectionContainer: React.FC<Props> = ({ info }) => {
     let rowClass = info.color ? 'row ' + info.color : 'row';
+    let infoClass = info.color ? 'info ' + info.color : 'info';
     let btnClass = info.bColor ? 'btn ' + info.bColor : 'btn';
     return (
         <div className={rowClass}>
-            <div className='info'>
+            <div className={infoClass}>
                 <h2>{info.title}</h2>
                 <p>{info.description}</p>
                 <Link to='/store' className={btnClass}> SEE THE MENU </Link>
