@@ -1,0 +1,62 @@
+
+
+.info{
+    padding: 70px 60px 100px 60px;
+    h2{
+        font-family: Amatic SC;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 109px;
+        margin: 50px 0px;
+        /* or 170% */
+
+        text-align: right;
+        letter-spacing: 1.34483px;
+
+        color: #3F3B3C;
+    }
+    p{
+        font-family: Antonio;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        text-align: right;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        color: #3F3B3C;
+    }
+    .btn{
+        width:160px;
+
+        border: 1px solid #3F3B3C;
+        border-radius: 10px;
+        padding:10px 20px;
+        font-family: Anton;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+
+        text-decoration: none;
+        
+        &:hover{
+            text-decoration: underline;
+        };
+
+    }
+    img{
+        width:100px;
+        height:auto;
+    }
+}

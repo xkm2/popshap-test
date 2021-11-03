@@ -1,3 +1,48 @@
+
+//Fonts
+@font-face{
+  font-family: Amatic SC;
+  src:local('Amatic SC'),url(./assets/fonts/AmaticSC-Bold.ttf) format('truetype')
+}
+
+@font-face{
+  font-family: Antonio;
+  src:local('Antonio'),url(./assets/fonts/Antonio-Regular.ttf) format('truetype')
+}
+
+@font-face{
+  font-family: Anton;
+  src:local('Antonio'),url(./assets/fonts/Anton-Regular.ttf) format('truetype')
+}
+
+
+//Colors
+.ladylike{
+  background: #FCC2BE;
+}
+.pale-seafoam{
+  background: #C3E9E9;
+}
+.carousel-pink{
+  background: #F7DADF;
+}
+.cardamom-fragrance{
+  background: #D8E0BB;
+}
+.yellow-wax-paper{
+  background: #EDE2B5;
+}
+.placebo-magenta{
+  background: #FCEBF3;
+}
+.flesh-pink{
+  background: #FAC9D1;
+}
+.blowing-kisses{
+  background: #F7DEE1;
+}
+
+
 .App {
   text-align: center;
 }
