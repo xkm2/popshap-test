@@ -25,7 +25,7 @@ export const SectionContainer: React.FC<Props> = ({ info, key }) => {
                 <p>{info.description}</p>
                 <Link to='/store' className={btnClass}> SEE THE MENU </Link>
             </div>
-            <img src={info.imgURL} />
+            <img src={info.imgURL} alt='' />
         </div>
     )
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { ContactForm } from '../components/form/ContactForm';
-import { Link } from 'react-router-dom';
 import './Form.scss'
 const FormPage = () => {
     return (

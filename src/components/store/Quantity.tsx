@@ -1,12 +1,12 @@
 import React from "react";
 
-interface Quantity {
+interface Quant {
     Qty: number;
     Inc: any;
     Dec: any;
 }
 interface Props {
-    info: Quantity;
+    info: Quant;
 }
 
 export const Quantity: React.FC<Props> = ({ info }) => {

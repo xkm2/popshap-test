@@ -12,10 +12,9 @@ export const SelectDate: React.FC<Props> = ({ select, value }) => {
     }
     return (
         <select name="date" id="date" value={value} onChange={e => select(e.target.value)} >
-            <option value="" selected ></option>
             {
-                dates.map(date => (
-                    <option value={date}>{date}</option>
+                dates.map((date, index) => (
+                    <option key={index} value={date}>{date}</option>
                 ))
             }
         </select>

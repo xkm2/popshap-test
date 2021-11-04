@@ -113,5 +113,5 @@ let sections: any[] = [
         ]
     }
 ]
-
-export default { sections };
+const c = { sections };
+export default c;

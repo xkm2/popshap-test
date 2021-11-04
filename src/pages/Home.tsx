@@ -12,7 +12,7 @@ const HomePage = () => {
                 ))
             }
             <div className='row' style={{ backgroundImage: "url('./img/iStock-1002878308 1.jpg')" }}>
-                <img src='./img/iStock-1002878308.jpg' />
+                <img src='./img/iStock-1002878308.jpg' alt='' />
                 <div className='info' >
                     <h2>Foo Bar10</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis eros nisl. Curabitur id efficitur felis.

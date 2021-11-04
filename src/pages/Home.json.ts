@@ -50,5 +50,6 @@ let sections: any[] = [
         imgURL: './img/iStock-1326092934 1.jpg'
     }
 ];
+const c = { sections };
 
-export default { sections };
+export default c;
