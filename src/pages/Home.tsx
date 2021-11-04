@@ -5,10 +5,10 @@ import './Home.scss';
 const HomePage = () => {
     const sections = data.sections;
     return (
-        <div className='container' >
+        <div className='home-container' >
             {
-                sections.map(section => (
-                    <SectionContainer info={section} />
+                sections.map((section, index) => (
+                    <SectionContainer key={index} info={section} />
                 ))
             }
             <div className='row' style={{ backgroundImage: "url('./img/iStock-1002878308 1.jpg')" }}>

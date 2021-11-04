@@ -1,4 +1,4 @@
-.container{
+.store-container{
     background: #AAF7A8;
     .section-container{
        text-align: center;
@@ -278,13 +278,18 @@
                         }
                     }
                 }
+                &:last-of-type{
+                    &:nth-of-type(odd){
+                        display:none;
+                    }
+                }
             }
         }
     }
 }
 
 @media only screen and (max-width: 992px){
-    .container{
+    .store-container{
         .section-container{
             .products{
                 padding:0px;
@@ -294,13 +299,17 @@
                         margin:0px;
                         margin-bottom:20px;
                     }
+                    
+                    &:last-of-type{
+                        display:none;
+                    }
                 }
             }
         }
     }
 }
 @media only screen and (max-width: 500px){
-    .container{
+    .store-container{
         .section-container{
             .products{
                 padding:0px;
