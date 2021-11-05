@@ -1,5 +1,6 @@
 .store-container{
     background: #AAF7A8;
+    
     .section-container{
        text-align: center;
         h2{
@@ -60,39 +61,45 @@
                         width:auto;
                         height: auto;
                         padding:10px;
-                        h4{
-                            display: inline-block; 
-                            margin: 0px;
-
-                            font-family: Anton;
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 18.963px;
-                            line-height: 28px;
-                            /* identical to box height, or 146% */
-
-                            letter-spacing: 0.395062px;
-                            text-transform: uppercase;
-
-                            color: #008926; 
+                        .top{
+                            display:flex;
+                            flex-direction: row;
+                            justify-content: space-between ;
+                            h4{
+                                display: inline-block; 
+                                margin: 0px;
+    
+                                font-family: Anton;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18.963px;
+                                line-height: 28px;
+                                /* identical to box height, or 146% */
+    
+                                letter-spacing: 0.395062px;
+                                text-transform: uppercase;
+    
+                                color: #008926; 
+                            }
+                            h5{
+                                margin: 7px;
+                                display: inline-block; 
+    
+                                font-family: Anton;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18.963px;
+                                line-height: 15px;
+                                /* identical to box height, or 81% */
+    
+                                
+                                letter-spacing: 0.395062px;
+                                text-transform: uppercase;
+    
+                                color: #008926;
+                            }
                         }
-                        h5{
-                            margin: 0px;
-                            float: right;
-
-                            font-family: Anton;
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 18.963px;
-                            line-height: 15px;
-                            /* identical to box height, or 81% */
-
-                            
-                            letter-spacing: 0.395062px;
-                            text-transform: uppercase;
-
-                            color: #008926;
-                        }
+                        
                         p{
                             display: inline-block;
                             
@@ -112,15 +119,18 @@
                         }
                     }
                     .info-bottom{
+                        width:100%;
                         grid-column-start: middle;
                         grid-column-end: end;
                         grid-row-start: middle;
                         grid-row-end: end;
                         display: grid;
-                        grid-template-columns: [one] auto [two] auto [three] auto [four] ;
+                        grid-template-columns: [one] 30% [two] 30% [three] auto [four] ;
                         grid-template-rows: [one] auto [two] ;
                         .qty{
-                            display: inline-block;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
                             background: #FCF2C8;
                             border-radius: 7.90123px;
                             margin: 35px 5px 5px 5px;
@@ -128,8 +138,7 @@
                             grid-column-end: three;
                             
                             .minus{
-                                
-                                display: inline-block;
+                                border-radius: 7.90123px;
                                 border: none;
                                 background: #FCF2C8;
                                 font-family: Montserrat;
@@ -139,6 +148,7 @@
                                 line-height: 12px;
                                 /* or 56% */
                                 margin-bottom: 5px;
+                                padding:0px;
                                 align-items: center;
                                 text-align: center;
                                 letter-spacing: 0.395062px;
@@ -147,9 +157,9 @@
                                 color: #008926;
                             }
                             h3{
+
                                 width:20px;
-                                margin: 5px auto;
-                                display: inline-block;
+                                margin: 5px 5px;
                                 font-family: Anton;
                                 font-style: normal;
                                 font-weight: normal;
@@ -165,7 +175,7 @@
 
                             }
                             .plus{
-                                display: inline-block;
+                                border-radius: 7.90123px;
                                 border: none;
                                 background: #FCF2C8;
                                 font-family: Montserrat;
@@ -174,7 +184,8 @@
                                 font-size: 28.4444px;
                                 line-height: 16px;
                                 /* or 56% */
-
+                                padding:0px;
+                                margin-bottom: 5px;
                                 align-items: center;
                                 text-align: center;
                                 letter-spacing: 0.395062px;
@@ -212,6 +223,7 @@
                             border-radius: 7.90123px;
                         }
                         .sizes{
+                            text-align: left;
                             display: inline-block;
                             grid-column-start: one;
                             grid-column-end: two;
@@ -221,7 +233,7 @@
                             margin-left: 10px;
                             p{  
                                 text-align: left;
-                                display: block;
+                                display: inline-block;
                                 font-family: Antonio;
                                 font-style: normal;
                                 font-weight: normal;

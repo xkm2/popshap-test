@@ -29,8 +29,10 @@ export const MenuItem: React.FC<Props> = ({ info }) => {
         <div className='menu-item'>
             <img src={info.imgURL} alt='' />
             <div className='info-top'>
-                <h4>{info.title}</h4>
-                <h5>${price}</h5>
+                <div className='top'>
+                    <h4>{info.title}</h4>
+                    <h5>${price}</h5>
+                </div>
                 <p>{info.description}</p>
             </div>
             <div className='info-bottom'>
