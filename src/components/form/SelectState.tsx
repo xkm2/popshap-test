@@ -7,7 +7,11 @@ interface Props {
 
 export const SelectState: React.FC<Props> = ({ select, value }) => {
     return (
-        <select name="state" id="state" value={value} onChange={e => select(e.target.value)} >
+        <select
+            name="state"
+            id="state"
+            value={value}
+            onChange={e => select(e.target.value)} >
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>

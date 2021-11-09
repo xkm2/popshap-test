@@ -50,7 +50,10 @@ const ProductsSection: React.FC<Props> = ({ p }) => {
                 ))
             }
             <div className='product'>
-                <div className='menu-item' style={{ backgroundImage: "url('./img/Frame 216.jpg')" }}></div>
+                <div
+                    className='menu-item'
+                    style={{ backgroundImage: "url('./img/Frame 216.jpg')" }}>
+                </div>
             </div>
         </div>
     )

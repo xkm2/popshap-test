@@ -11,15 +11,15 @@ interface Info {
 }
 interface Props {
     info: Info;
-    key: number;
+    index: number;
 }
 
-export const SectionContainer: React.FC<Props> = ({ info, key }) => {
+export const SectionContainer: React.FC<Props> = ({ info, index }) => {
     let rowClass = info.color ? 'row ' + info.color : 'row';
     let infoClass = info.color ? 'info ' + info.color : 'info';
     let btnClass = info.bColor ? 'btn ' + info.bColor : 'btn';
     return (
-        <div className={rowClass} key={key}>
+        <div className={rowClass} key={index}>
             <div className={infoClass}>
                 <h2>{info.title}</h2>
                 <p>{info.description}</p>

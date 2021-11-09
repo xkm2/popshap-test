@@ -11,10 +11,18 @@ export const SelectNumber: React.FC<Props> = ({ select, value }) => {
         numList.push(i)
     }
     return (
-        <select name="number" id="number" value={value} onChange={e => select(e.target.value)} >
+        <select
+            name="number"
+            id="number"
+            value={value}
+            onChange={e => select(e.target.value)} >
             {
                 numList.map((num, index) => (
-                    <option key={index} value={num}>{num}</option>
+                    <option
+                        key={index}
+                        value={num}>
+                        {num}
+                    </option>
                 ))
             }
         </select>

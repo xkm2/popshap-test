@@ -8,10 +8,12 @@ const HomePage = () => {
         <div className='home-container' >
             {
                 sections.map((section, index) => (
-                    <SectionContainer key={index} info={section} />
+                    <SectionContainer key={index} index={index} info={section} />
                 ))
             }
-            <div className='row' style={{ backgroundImage: "url('./img/iStock-1002878308 1.jpg')" }}>
+            <div
+                className='row'
+                style={{ backgroundImage: "url('./img/iStock-1002878308 1.jpg')" }}>
                 <img src='./img/iStock-1002878308.jpg' alt='' />
                 <div className='info' >
                     <h2>Foo Bar10</h2>

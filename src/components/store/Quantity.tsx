@@ -12,9 +12,18 @@ interface Props {
 export const Quantity: React.FC<Props> = ({ info }) => {
     return (
         <div className="qty">
-            <button className="minus" onClick={info.Dec} disabled={info.Qty < 1}>-</button>
+            <button
+                className="minus"
+                onClick={info.Dec}
+                disabled={info.Qty < 1}>
+                -
+            </button>
             <h3>{info.Qty}</h3>
-            <button className="plus" onClick={info.Inc}>+</button>
+            <button
+                className="plus"
+                onClick={info.Inc}>
+                +
+            </button>
         </div>
     )
 };
