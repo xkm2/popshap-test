@@ -2,7 +2,7 @@
   "name": "popshap-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xkm2.github.io/popshap",
+  "homepage": "https://xkm2.github.io/popshap-test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
