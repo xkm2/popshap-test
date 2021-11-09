@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/popshap-test/static/css/main.5171c6ca.chunk.css",
+    "main.js": "/popshap-test/static/js/main.770fd910.chunk.js",
+    "main.js.map": "/popshap-test/static/js/main.770fd910.chunk.js.map",
+    "runtime-main.js": "/popshap-test/static/js/runtime-main.57920b4d.js",
+    "runtime-main.js.map": "/popshap-test/static/js/runtime-main.57920b4d.js.map",
+    "static/js/2.8c940e31.chunk.js": "/popshap-test/static/js/2.8c940e31.chunk.js",
+    "static/js/2.8c940e31.chunk.js.map": "/popshap-test/static/js/2.8c940e31.chunk.js.map",
+    "index.html": "/popshap-test/index.html",
+    "static/css/main.5171c6ca.chunk.css.map": "/popshap-test/static/css/main.5171c6ca.chunk.css.map",
+    "static/js/2.8c940e31.chunk.js.LICENSE.txt": "/popshap-test/static/js/2.8c940e31.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/popshap-test/static/media/Montserrat-Regular.3cd78665.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57920b4d.js",
+    "static/js/2.8c940e31.chunk.js",
+    "static/css/main.5171c6ca.chunk.css",
+    "static/js/main.770fd910.chunk.js"
+  ]
+}
